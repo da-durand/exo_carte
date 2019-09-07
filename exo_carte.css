@@ -1,0 +1,49 @@
+div:not(#carte) {
+    background-color:whitesmoke ;
+}
+
+h1, img {
+    display: inline-block ;
+}
+
+
+img {
+    width: 135px ;
+    float: right ;
+    margin: 0 0 1em 1em ;
+}
+
+h1 {
+    vertical-align: middle ;
+    margin: 1em ;
+}
+
+#sup {
+    margin-bottom: 1em ;
+}
+
+#mail {
+    float: right;
+    margin: 0 0 1em 1em ;
+}
+
+#carte {
+    border: black solid ;
+    border-radius: 5px ;
+    width: 600px ;
+    background-color: gray ;
+    margin: auto ;
+}
+
+
+p:not(#job) {
+    display: inline ;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+     margin: 0 ;
+     padding: 0 ;
+ }
